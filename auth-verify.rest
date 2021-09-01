@@ -1,0 +1,7 @@
+curl --location --request POST 'https://dev-k0n7m9i7.auth0.com/oauth/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'client_id=SIBPoH3CkiPuwslGYv5Re8IoZNvY23v1' \
+--data-urlencode 'username=jitu@ybl.com' \
+--data-urlencode 'password=Jitu@ybl.com' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'scope=openid'

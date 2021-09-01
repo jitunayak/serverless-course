@@ -1,0 +1,17 @@
+{
+  "serverlessConsole.services": [
+    {
+      "type": "cloudformation",
+      "title": "sls course",
+      "timeOffsetInMs": 0,
+      "awsProfile": "default",
+      "stacks": [
+        {
+          "region": "ap-south-1",
+          "stackName": "auction-service-dev",
+          "stage": "dev"
+        }
+      ]
+    }
+  ]
+}
