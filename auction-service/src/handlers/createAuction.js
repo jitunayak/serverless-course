@@ -10,7 +10,7 @@ const dynamoDb = new AWS.DynamoDB.DocumentClient();
 async function createAuction(event, context) {
   if (event.httpMethod !== "POST") {
     throw new createError.MethodNotAllowed(
-      "Request can only be made through POST method"
+      "Request can only be made through POST method!"
     );
   }
   const { title } = event.body;
